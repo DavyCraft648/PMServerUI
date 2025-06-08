@@ -33,6 +33,9 @@ final class UIManager{
 		$plManager = Server::getInstance()->getPluginManager();
 		$plManager->registerEvent(PlayerQuitEvent::class, function(PlayerQuitEvent $event): void{
 			$player = $event->getPlayer();
+			if(!isset($this->playerForms[$player->getId()])){
+				return;
+			}
 			/**
 			 * @var FormDataHandler $form
 			 * @var Promise $promise

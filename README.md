@@ -42,7 +42,7 @@ library that other plugins *include* in their code.
   {
     "require": {
       // other dependencies ...
-      "davycraft648/pmserver-ui": "^1.0.1"
+      "davycraft648/pmserver-ui": "^1.0"
     }
   }
   ```
@@ -57,7 +57,7 @@ library that other plugins *include* in their code.
      YourPlugin:
        libs:
          - src: DavyCraft648/PMServerUI/PMServerUI
-           version: ^1.0.1
+           version: ^1.0.2
    ```
 
 ---

@@ -3,9 +3,6 @@
   "description": "Integrate UI features available in the Script API to PocketMine-MP",
   "type": "library",
   "license": "MIT",
-  "require": {
-    "php": "^8.2"
-  },
   "require-dev": {
     "pocketmine/pocketmine-mp": "^5.0.0"
   },
@@ -14,7 +11,7 @@
   },
   "extra": {
     "virion": {
-      "spec": "3.1",
+      "spec": "3.0",
       "namespace-root": "DavyCraft648\\PMServerUI"
     }
   }
